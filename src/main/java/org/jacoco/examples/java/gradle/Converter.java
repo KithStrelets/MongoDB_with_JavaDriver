@@ -1,22 +1,15 @@
 package org.jacoco.examples.java.gradle;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import java.io.IOException;
 import java.sql.Timestamp;
 import java.util.HashMap;
 import java.util.Map;
 import org.json.JSONObject;
 
-
-
-
 public class Converter {
-    private final ObjectMapper mapper = new ObjectMapper();
     
     public String orgJsonSerialize(ServerLog serObj){
         
-             Map<String, Object> objectDataMap = new HashMap<String, Object>();
+             Map<String, Object> objectDataMap = new HashMap<>();
              objectDataMap.put("url", serObj.getFieldUrl());
              objectDataMap.put("ip", serObj.getFieldIP());
              objectDataMap.put("timestamp", serObj.getFieldTimeStamp());

@@ -7,9 +7,7 @@ package org.jacoco.examples.java.gradle;
 
 import java.sql.Timestamp;
 import java.util.ArrayList;
-import org.junit.After;
 import org.junit.AfterClass;
-import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import org.junit.BeforeClass;
@@ -20,13 +18,10 @@ import org.junit.BeforeClass;
  */
 public class MongoDBConnectionTest {
     
-    public MongoDBConnectionTest() {
-    }
-    
     private final MongoDBConnection instance = new MongoDBConnection();
     private static ArrayList<String> tested = new ArrayList<>();
-    ArrayList<ServerLog> expectedLogs;
-    ArrayList<ServerLog> testLogs;
+    private ArrayList<ServerLog> expectedLogs;
+    private ArrayList<ServerLog> testLogs;
     /**
      * Test of insertLog method, of class MongoDBConnection.
      */
@@ -50,7 +45,7 @@ public class MongoDBConnectionTest {
     }
     
     @AfterClass
-    public static void Clear(){
+    public static void clear(){
         MongoDBConnection instance = new MongoDBConnection();
         instance.clearAll();
     }
@@ -133,7 +128,6 @@ public class MongoDBConnectionTest {
         System.out.println("getIpByUrl");
         String urlString = "https://docs.oracle.com";
         ArrayList<String> testedStrings = instance.getIpByUrl(urlString);
-        String testedString = testedStrings.toString();
         assertEquals("Ip by url is wrong", testedStrings, TestingValues.getGettingIPbyUrl());
     }
 
