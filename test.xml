@@ -1,0 +1,6 @@
+<timespent><$numberLong>100</$numberLong></timespent><ip>1.1.1.1</ip><_id><$oid>5a082115b262ec24a8ce538c</$oid></_id><url>https://docs.oracle.com</url><timestamp><$date>10000</$date></timestamp>
+<timespent><$numberLong>150</$numberLong></timespent><ip>2.2.2.2</ip><_id><$oid>5a082115b262ec24a8ce538e</$oid></_id><url>https://docs.oracle.com</url><timestamp><$date>10000</$date></timestamp>
+<timespent><$numberLong>100</$numberLong></timespent><ip>3.3.3.3</ip><_id><$oid>5a082115b262ec24a8ce5390</$oid></_id><url>https://docs.oracle.com</url><timestamp><$date>11000</$date></timestamp>
+<timespent><$numberLong>500</$numberLong></timespent><ip>4.4.4.4</ip><_id><$oid>5a082115b262ec24a8ce5392</$oid></_id><url>https://javadevblog.com</url><timestamp><$date>9000</$date></timestamp>
+<timespent><$numberLong>500</$numberLong></timespent><ip>3.3.3.3</ip><_id><$oid>5a082115b262ec24a8ce5394</$oid></_id><url>https://javadevblog.com</url><timestamp><$date>11000</$date></timestamp>
+<timespent><$numberLong>777</$numberLong></timespent><ip>1.1.1.1</ip><_id><$oid>5a082116b262ec24a8ce5396</$oid></_id><url>https://docs.jboss.org</url><timestamp><$date>15000</$date></timestamp>
