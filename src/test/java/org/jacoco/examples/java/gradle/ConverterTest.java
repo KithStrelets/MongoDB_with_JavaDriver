@@ -14,7 +14,6 @@ import static org.junit.Assert.*;
  * @author Никита
  */
 public class ConverterTest {
-    private Converter instance = new Converter();
     /**
      * Test of orgJsonDeserialize method, of class Converter.
      */
@@ -23,7 +22,7 @@ public class ConverterTest {
         
         System.out.println("orgJsonDeserialize");
         String targetJsonString = "";
-        instance = new Converter();
+        Converter instance = new Converter();
         ServerLog expResult = null;
         ServerLog result = instance.orgJsonDeserialize(targetJsonString);
         assertEquals(expResult, result);
