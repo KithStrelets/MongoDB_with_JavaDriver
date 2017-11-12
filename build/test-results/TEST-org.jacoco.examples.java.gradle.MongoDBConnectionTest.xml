@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.jacoco.examples.java.gradle.MongoDBConnectionTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2017-11-12T15:51:00" hostname="TOSH" time="1.258">
+<testsuite name="org.jacoco.examples.java.gradle.MongoDBConnectionTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2017-11-12T16:05:12" hostname="TOSH" time="1.27">
   <properties/>
-  <testcase name="testGetMapReducedUrlCountByPeriod" classname="org.jacoco.examples.java.gradle.MongoDBConnectionTest" time="0.27"/>
-  <testcase name="testGetIpByUrl" classname="org.jacoco.examples.java.gradle.MongoDBConnectionTest" time="0.056"/>
-  <testcase name="testGetMapReducedIpCountAndTime" classname="org.jacoco.examples.java.gradle.MongoDBConnectionTest" time="0.147"/>
-  <testcase name="testUpdateLog" classname="org.jacoco.examples.java.gradle.MongoDBConnectionTest" time="0.142"/>
-  <testcase name="testGetUrlByIp" classname="org.jacoco.examples.java.gradle.MongoDBConnectionTest" time="0.078"/>
-  <testcase name="testInsertLog" classname="org.jacoco.examples.java.gradle.MongoDBConnectionTest" time="0.004"/>
-  <testcase name="testDeleteLog" classname="org.jacoco.examples.java.gradle.MongoDBConnectionTest" time="0.121"/>
-  <testcase name="testGetUrlByPeriod" classname="org.jacoco.examples.java.gradle.MongoDBConnectionTest" time="0.054"/>
-  <testcase name="testGetMapReducedUrlCount" classname="org.jacoco.examples.java.gradle.MongoDBConnectionTest" time="0.205"/>
-  <testcase name="testGetMapReducedUrlTime" classname="org.jacoco.examples.java.gradle.MongoDBConnectionTest" time="0.179"/>
+  <testcase name="testGetMapReducedUrlCountByPeriod" classname="org.jacoco.examples.java.gradle.MongoDBConnectionTest" time="0.176"/>
+  <testcase name="testGetIpByUrl" classname="org.jacoco.examples.java.gradle.MongoDBConnectionTest" time="0.055"/>
+  <testcase name="testGetMapReducedIpCountAndTime" classname="org.jacoco.examples.java.gradle.MongoDBConnectionTest" time="0.31"/>
+  <testcase name="testUpdateLog" classname="org.jacoco.examples.java.gradle.MongoDBConnectionTest" time="0.126"/>
+  <testcase name="testGetUrlByIp" classname="org.jacoco.examples.java.gradle.MongoDBConnectionTest" time="0.045"/>
+  <testcase name="testInsertLog" classname="org.jacoco.examples.java.gradle.MongoDBConnectionTest" time="0.012"/>
+  <testcase name="testDeleteLog" classname="org.jacoco.examples.java.gradle.MongoDBConnectionTest" time="0.147"/>
+  <testcase name="testGetUrlByPeriod" classname="org.jacoco.examples.java.gradle.MongoDBConnectionTest" time="0.045"/>
+  <testcase name="testGetMapReducedUrlCount" classname="org.jacoco.examples.java.gradle.MongoDBConnectionTest" time="0.184"/>
+  <testcase name="testGetMapReducedUrlTime" classname="org.jacoco.examples.java.gradle.MongoDBConnectionTest" time="0.169"/>
   <system-out><![CDATA[insertLog
-{ "_id" : { "$oid" : "5a086de3b262ec0bfc9b6b06" }, "url" : "https://docs.oracle.com", "ip" : "1.1.1.1", "timestamp" : { "$date" : 10000 }, "timespent" : { "$numberLong" : "100" } }
-{ "_id" : { "$oid" : "5a086de3b262ec0bfc9b6b08" }, "url" : "https://docs.oracle.com", "ip" : "2.2.2.2", "timestamp" : { "$date" : 10000 }, "timespent" : { "$numberLong" : "150" } }
-{ "_id" : { "$oid" : "5a086de3b262ec0bfc9b6b0a" }, "url" : "https://docs.oracle.com", "ip" : "3.3.3.3", "timestamp" : { "$date" : 11000 }, "timespent" : { "$numberLong" : "100" } }
-{ "_id" : { "$oid" : "5a086de3b262ec0bfc9b6b0c" }, "url" : "https://javadevblog.com", "ip" : "4.4.4.4", "timestamp" : { "$date" : 9000 }, "timespent" : { "$numberLong" : "500" } }
-{ "_id" : { "$oid" : "5a086de3b262ec0bfc9b6b0e" }, "url" : "https://javadevblog.com", "ip" : "3.3.3.3", "timestamp" : { "$date" : 11000 }, "timespent" : { "$numberLong" : "500" } }
-{ "_id" : { "$oid" : "5a086de3b262ec0bfc9b6b10" }, "url" : "https://docs.jboss.org", "ip" : "1.1.1.1", "timestamp" : { "$date" : 15000 }, "timespent" : { "$numberLong" : "777" } }
+{ "_id" : { "$oid" : "5a087137b262ec229c11bbc9" }, "url" : "https://docs.oracle.com", "ip" : "1.1.1.1", "timestamp" : { "$date" : 10000 }, "timespent" : { "$numberLong" : "100" } }
+{ "_id" : { "$oid" : "5a087138b262ec229c11bbcb" }, "url" : "https://docs.oracle.com", "ip" : "2.2.2.2", "timestamp" : { "$date" : 10000 }, "timespent" : { "$numberLong" : "150" } }
+{ "_id" : { "$oid" : "5a087138b262ec229c11bbcd" }, "url" : "https://docs.oracle.com", "ip" : "3.3.3.3", "timestamp" : { "$date" : 11000 }, "timespent" : { "$numberLong" : "100" } }
+{ "_id" : { "$oid" : "5a087138b262ec229c11bbcf" }, "url" : "https://javadevblog.com", "ip" : "4.4.4.4", "timestamp" : { "$date" : 9000 }, "timespent" : { "$numberLong" : "500" } }
+{ "_id" : { "$oid" : "5a087138b262ec229c11bbd1" }, "url" : "https://javadevblog.com", "ip" : "3.3.3.3", "timestamp" : { "$date" : 11000 }, "timespent" : { "$numberLong" : "500" } }
+{ "_id" : { "$oid" : "5a087138b262ec229c11bbd3" }, "url" : "https://docs.jboss.org", "ip" : "1.1.1.1", "timestamp" : { "$date" : 15000 }, "timespent" : { "$numberLong" : "777" } }
 getMapReducedUrlCountByPeriod
 { "url" : "https://docs.oracle.com", "count" : 2.0 }
 { "url" : "https://javadevblog.com", "count" : 1.0 }
@@ -67,12 +67,12 @@ updateLog
 	"timestamp": 1970-01-01 02:00:15.0,
 	"timespent": 777
 }
-{ "_id" : { "$oid" : "5a086de3b262ec0bfc9b6b06" }, "url" : "https://docs.oracle.com", "ip" : "1.1.1.1", "timestamp" : { "$date" : 10000 }, "timespent" : { "$numberLong" : "100" } }
-{ "_id" : { "$oid" : "5a086de3b262ec0bfc9b6b08" }, "url" : "https://docs.oracle.com", "ip" : "2.2.2.2", "timestamp" : { "$date" : 10000 }, "timespent" : { "$numberLong" : "150" } }
-{ "_id" : { "$oid" : "5a086de3b262ec0bfc9b6b0a" }, "url" : "https://stackowerflow.com", "ip" : "3.3.3.3", "timestamp" : { "$date" : 11000 }, "timespent" : { "$numberLong" : "666" } }
-{ "_id" : { "$oid" : "5a086de3b262ec0bfc9b6b0c" }, "url" : "https://javadevblog.com", "ip" : "4.4.4.4", "timestamp" : { "$date" : 9000 }, "timespent" : { "$numberLong" : "500" } }
-{ "_id" : { "$oid" : "5a086de3b262ec0bfc9b6b0e" }, "url" : "https://javadevblog.com", "ip" : "3.3.3.3", "timestamp" : { "$date" : 11000 }, "timespent" : { "$numberLong" : "500" } }
-{ "_id" : { "$oid" : "5a086de3b262ec0bfc9b6b10" }, "url" : "https://docs.jboss.org", "ip" : "1.1.1.1", "timestamp" : { "$date" : 15000 }, "timespent" : { "$numberLong" : "777" } }
+{ "_id" : { "$oid" : "5a087137b262ec229c11bbc9" }, "url" : "https://docs.oracle.com", "ip" : "1.1.1.1", "timestamp" : { "$date" : 10000 }, "timespent" : { "$numberLong" : "100" } }
+{ "_id" : { "$oid" : "5a087138b262ec229c11bbcb" }, "url" : "https://docs.oracle.com", "ip" : "2.2.2.2", "timestamp" : { "$date" : 10000 }, "timespent" : { "$numberLong" : "150" } }
+{ "_id" : { "$oid" : "5a087138b262ec229c11bbcd" }, "url" : "https://stackowerflow.com", "ip" : "3.3.3.3", "timestamp" : { "$date" : 11000 }, "timespent" : { "$numberLong" : "666" } }
+{ "_id" : { "$oid" : "5a087138b262ec229c11bbcf" }, "url" : "https://javadevblog.com", "ip" : "4.4.4.4", "timestamp" : { "$date" : 9000 }, "timespent" : { "$numberLong" : "500" } }
+{ "_id" : { "$oid" : "5a087138b262ec229c11bbd1" }, "url" : "https://javadevblog.com", "ip" : "3.3.3.3", "timestamp" : { "$date" : 11000 }, "timespent" : { "$numberLong" : "500" } }
+{ "_id" : { "$oid" : "5a087138b262ec229c11bbd3" }, "url" : "https://docs.jboss.org", "ip" : "1.1.1.1", "timestamp" : { "$date" : 15000 }, "timespent" : { "$numberLong" : "777" } }
 {
 	"url": https://docs.oracle.com,
 	"ip": 1.1.1.1,
@@ -215,11 +215,11 @@ deleteLog
 	"timestamp": 1970-01-01 02:00:15.0,
 	"timespent": 777
 }
-{ "_id" : { "$oid" : "5a086de3b262ec0bfc9b6b06" }, "url" : "https://docs.oracle.com", "ip" : "1.1.1.1", "timestamp" : { "$date" : 10000 }, "timespent" : { "$numberLong" : "100" } }
-{ "_id" : { "$oid" : "5a086de3b262ec0bfc9b6b08" }, "url" : "https://docs.oracle.com", "ip" : "2.2.2.2", "timestamp" : { "$date" : 10000 }, "timespent" : { "$numberLong" : "150" } }
-{ "_id" : { "$oid" : "5a086de3b262ec0bfc9b6b0c" }, "url" : "https://javadevblog.com", "ip" : "4.4.4.4", "timestamp" : { "$date" : 9000 }, "timespent" : { "$numberLong" : "500" } }
-{ "_id" : { "$oid" : "5a086de3b262ec0bfc9b6b0e" }, "url" : "https://javadevblog.com", "ip" : "3.3.3.3", "timestamp" : { "$date" : 11000 }, "timespent" : { "$numberLong" : "500" } }
-{ "_id" : { "$oid" : "5a086de3b262ec0bfc9b6b10" }, "url" : "https://docs.jboss.org", "ip" : "1.1.1.1", "timestamp" : { "$date" : 15000 }, "timespent" : { "$numberLong" : "777" } }
+{ "_id" : { "$oid" : "5a087137b262ec229c11bbc9" }, "url" : "https://docs.oracle.com", "ip" : "1.1.1.1", "timestamp" : { "$date" : 10000 }, "timespent" : { "$numberLong" : "100" } }
+{ "_id" : { "$oid" : "5a087138b262ec229c11bbcb" }, "url" : "https://docs.oracle.com", "ip" : "2.2.2.2", "timestamp" : { "$date" : 10000 }, "timespent" : { "$numberLong" : "150" } }
+{ "_id" : { "$oid" : "5a087138b262ec229c11bbcf" }, "url" : "https://javadevblog.com", "ip" : "4.4.4.4", "timestamp" : { "$date" : 9000 }, "timespent" : { "$numberLong" : "500" } }
+{ "_id" : { "$oid" : "5a087138b262ec229c11bbd1" }, "url" : "https://javadevblog.com", "ip" : "3.3.3.3", "timestamp" : { "$date" : 11000 }, "timespent" : { "$numberLong" : "500" } }
+{ "_id" : { "$oid" : "5a087138b262ec229c11bbd3" }, "url" : "https://docs.jboss.org", "ip" : "1.1.1.1", "timestamp" : { "$date" : 15000 }, "timespent" : { "$numberLong" : "777" } }
 {
 	"url": https://docs.oracle.com,
 	"ip": 1.1.1.1,
