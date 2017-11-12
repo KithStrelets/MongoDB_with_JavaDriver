@@ -1,8 +1,6 @@
 package org.jacoco.examples.java.gradle;
 
 import java.sql.Timestamp;
-import java.util.HashMap;
-import java.util.Map;
 import org.json.JSONObject;
 
 public class Converter {
