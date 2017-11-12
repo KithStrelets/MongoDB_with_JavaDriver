@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.jacoco.examples.java.gradle.ServerLogTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2017-11-12T15:51:01" hostname="TOSH" time="0.005">
+  <properties/>
+  <testcase name="testSetFieldTimeSpent" classname="org.jacoco.examples.java.gradle.ServerLogTest" time="0.0"/>
+  <testcase name="testSetFieldTimeStamp" classname="org.jacoco.examples.java.gradle.ServerLogTest" time="0.0"/>
+  <testcase name="testToString" classname="org.jacoco.examples.java.gradle.ServerLogTest" time="0.0"/>
+  <testcase name="testGetFieldIP" classname="org.jacoco.examples.java.gradle.ServerLogTest" time="0.0"/>
+  <testcase name="testGetFieldTimeSpent" classname="org.jacoco.examples.java.gradle.ServerLogTest" time="0.0"/>
+  <testcase name="testGetFieldTimeStamp" classname="org.jacoco.examples.java.gradle.ServerLogTest" time="0.0"/>
+  <testcase name="testSetFieldUrl" classname="org.jacoco.examples.java.gradle.ServerLogTest" time="0.0"/>
+  <testcase name="testGetFieldUrl" classname="org.jacoco.examples.java.gradle.ServerLogTest" time="0.0"/>
+  <testcase name="testSetFieldIP" classname="org.jacoco.examples.java.gradle.ServerLogTest" time="0.0"/>
+  <system-out><![CDATA[setFieldTimeSpent
+setFieldTimeStamp
+toString
+getFieldIP
+getFieldTimeSpent
+getFieldTimeStamp
+setFieldUrl
+getFieldUrl
+setFieldIP
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

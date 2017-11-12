@@ -7,18 +7,18 @@ import org.json.JSONObject;
 
 public class Converter {
     
-    public String orgJsonSerialize(ServerLog serObj){
-        
-             Map<String, Object> objectDataMap = new HashMap<>();
-             objectDataMap.put("url", serObj.getFieldUrl());
-             objectDataMap.put("ip", serObj.getFieldIP());
-             objectDataMap.put("timestamp", serObj.getFieldTimeStamp());
-             objectDataMap.put("timespent", serObj.getFieldTimeSpent());
-             JSONObject root = new JSONObject(objectDataMap);
-
-             System.out.println(root.toString());
-             return root.toString();  
-    } 
+//    public String orgJsonSerialize(ServerLog serObj){
+//        
+//             Map<String, Object> objectDataMap = new HashMap<>();
+//             objectDataMap.put("url", serObj.getFieldUrl());
+//             objectDataMap.put("ip", serObj.getFieldIP());
+//             objectDataMap.put("timestamp", serObj.getFieldTimeStamp());
+//             objectDataMap.put("timespent", serObj.getFieldTimeSpent());
+//             JSONObject root = new JSONObject(objectDataMap);
+//
+//             System.out.println(root.toString());
+//             return root.toString();  
+//    } 
     
     public ServerLog orgJsonDeserialize(String targetJsonString){
         
